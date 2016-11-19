@@ -29,7 +29,7 @@ body {
   overflow:hidden;
   font-size:100%;
   line-height:1.25;
-  background:$bgColor;
+  background:transparentize($bgColor, 0.5);
   color:$textColor;
   -webkit-font-feature-settings:"liga", "dlig";
   font-feature-settings:"liga", "dlig";
@@ -69,14 +69,14 @@ body {
      top:0;
      width:100%;
      height:54px;
-     background:linear-gradient(to top, rgba(0, 43, 54, 0), rgba(0, 43, 54, 1) 5%);
+     //background:linear-gradient(to top, rgba(0, 43, 54, 0), rgba(0, 43, 54, 1) 5%);
    }
 
    &::after {
      top:auto;
      bottom:0;
      height:3rem;
-     background:linear-gradient(to bottom, rgba(0, 43, 54, 0), rgba(0, 43, 54, 1) 5%);
+     //background:linear-gradient(to bottom, rgba(0, 43, 54, 0), rgba(0, 43, 54, 1) 5%);
    }
  }
 
